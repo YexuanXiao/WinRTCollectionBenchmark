@@ -14,6 +14,7 @@ If you know the number of elements, constructing a winrt::IVector from a pre-all
 
 On my Intel test machine with the following typical output:
 
+```plaintext
 Size of Data: 24
 Count: 100000000
 Standard Vector Push Back                     : 4866 milliseconds
@@ -47,3 +48,4 @@ Standard Vector iteration                     : 545 milliseconds
 WinRT Vector iteration                        : 1770 milliseconds
 WinRT Vector iteration use GetView            : 1724 milliseconds
 300000000
+```
