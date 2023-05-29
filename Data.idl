@@ -1,0 +1,10 @@
+namespace Data
+{
+	struct Data
+{
+	String s;
+	UInt64 u8;
+	Boolean b;
+	UInt32 u4;
+};
+}
